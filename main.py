@@ -12,6 +12,7 @@ def home_page():
     url = F"https://www.dictionary.com/e/word-of-the-day/"
 
     response = requests.get(url)
+    Status = response.status_code
     soup = bs(response.text,"lxml")
     anchor1= soup.find_all('div',"otd-items wotd-items")
     for element in anchor1:
@@ -32,6 +33,7 @@ def home_page():
     Word_Detail = {}
     Word_Detail = {
         
+        'Status': Status,
         'Date': Date,
         'Word': Word,
         'Class': Class,
