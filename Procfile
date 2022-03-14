@@ -1,1 +1,1 @@
-web: python time.py
+web: python main.py
