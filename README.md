@@ -1,3 +1,3 @@
 # Word-API
 
-https://word-meaning-api.herokuapp.com/
+### [API LINK](https://word-meaning-api.herokuapp.com/)
