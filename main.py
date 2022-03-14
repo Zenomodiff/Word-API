@@ -33,7 +33,7 @@ def home_page():
     Word_Detail = {}
     Word_Detail = {
         
-        'Status': Status,
+        '#Status': Status,
         'Date': Date,
         'Word': Word,
         'Class': Class,
